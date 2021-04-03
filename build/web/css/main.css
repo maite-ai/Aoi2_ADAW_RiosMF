@@ -1,0 +1,82 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+body {
+    background-image: url(/images/fondo.jpg);
+}
+
+.jumbotron {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #e9ecef;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.footer-address-icon {
+    padding-right: 10px;
+}
+
+ul.socialIcons {
+    padding: 0;
+    text-align: center;
+}
+
+.socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    margin: 5px;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.socialIcons li a {
+    display: block;
+    padding: 0.5em;
+    min-width: 2.28571429em;
+    max-width: 2.28571429em;
+    height: 2.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+
+.socialIcons li i {
+    margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+}
+
+.socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .instagram {
+    background-color: #cd486b;
+    box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .whatsapp {
+    background-color: #4dc247;
+    box-shadow: 0 0 16px #4dc247;
+}
+

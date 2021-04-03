@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 6 sep. 2020, 23:56:11
+    Author     : mafer
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@300&display=swap");
+body {
+    background-image: url(/images/fondo.jpg);
+}
+
+
+/* ALPHA Notebooks*/
+
+.banner {
+    width: 800px;
+    height: 180px;
+    display: inline;
+}
+
+.borde {
+    border: 2px solid #2f0652;
+}
+
+/*Frame*/
+
+#marquito {
+    width: 90%;
+    height: 90%;
+    display: inline;
+}
+
+
+/* Archivo home.html */
+
+#textarriba {
+    margin: 55px 20px 5px 20px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 25px;
+    color: #000;
+    text-shadow: 2px 1px #a79e97;
+    text-align: center;
+}
+
+#pcCentral {
+    padding: 5px 20px;
+    margin: 0px 10px;
+    float: left;
+}
+
+#textlateral {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 25px;
+    color: #5878ca;
+    text-shadow: 2px 1px #a79e97;
+    text-align: left;
+}
+
+
+/*Global*/
+
+h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+/* Catálogo de productos / Catálogo por Marcas */
+
+.productos {
+    background: white;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    padding: 20px auto;
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+    float: none;
+    object-fit: contain;
+    border: solid 2px #5878ca;
+}
+
+.encabez,
+.filas,
+.clmn {
+    border: solid 2px #5878ca;
+    text-align: center;
+    padding: 5px 10px;
+    border-collapse: collapse;
+    text-align: left;
+    float: none;
+    object-fit: contain;
+}
+
+
+/* Contacto */
+
+.contacto {
+    padding: 20px auto;
+    margin: 20px auto;
+    width: 70%;
+}
+
+#formulario {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 15px 10px;
+    border: 1px solid #5878ca;
+}
+
+#nomap,
+#email {
+    display: table;
+    width: 300px;
+}
+
+#consulta {
+    display: table;
+    width: 300px;
+    height: 200px;
+}
+
+.mapa {
+    padding: 10px 10px 0px 10px;
+    margin: 55px 50px 0px 20px;
+    width: 400px;
+    height: 250px;
+    float: right;
+}
+
+#direccion {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 10px;
+    color: black;
+    text-shadow: 0 0 #a79e97;
+    margin: 25px 200px 40px 80px;
+    text-align: left;
+    object-fit: cover;
+}
+
+.enviar {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background-color: #59b389;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-shadow: 0px 1px 0px #3d768a;
+    text-decoration: none;
+}
+
+.enviar:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+
+.enviar:active {
+    position: relative;
+    top: 1px;
+}
+
+.cancelar {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background-color: #59b389;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-shadow: 0px 1px 0px #3d768a;
+    text-decoration: none;
+}
+
+.cancelar:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+
+.cancelar:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*Detalles Notebooks - Global*/
+
+.bloqueProd {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    object-fit: contain;
+}
+
+.compus {
+    padding: 20px;
+    margin: 0px 75px 0px 0px;
+    float: right;
+}
+
+.detalle {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    object-fit: contain;
+}
+
+.precio1 {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 28px;
+    color: black;
+    text-align: left;
+}
+
+.dolares {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 35px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+.prod {
+    padding: 10px 10px 10px 10px;
+    margin: 25px 80px 25px 80px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#enlaces {
+    margin: auto;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-size: 30px;
+    color: #2f0652;
+    text-shadow: 1px 2px #a79e97;
+    text-align: center;
+}
+
+
+/*# sourceMappingURL=miestilo.css.map */

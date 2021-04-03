@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alpha</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Favicon site -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="32x32" />
+        
+        <!-- Hoja de estilos -->
+        <link rel="styleSheet" href="css/main.css" type="text/css">
+        <link href="css/miestilo.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+        <style>
+            body {
+                background-image: url(/images/fondo.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">ALPHA</a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" target="marco" href="./catalogo.jsp">Catálogo de Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" target="marco" href="./contacto.jsp">Contáctenos</a></li>
+                    <li class="nav-item"><a class="nav-link" target="marco" href="./login.jsp">Ingresar</a></li>
+                    <li class="nav-item"><a class="nav-link" target="marco" href="./registro.jsp">Registrarse</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- nombre de negocio: "ALPHA Notebooks" -->
+        <div class="jumbotron">
+            <table>
+                <tr>
+                    <td>
+                        <h1><b>ALPHA</b></h1>
+                        <h2>Notebooks</h2>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="container-fluid">
+            <div class="row row-cols-2">
+                <div class="col-6 col-md-1">
+                    <table>
+                        <tr>
+                            <!-- Botón Logo Dell -->
+                            <td align="center">
+                                <a href="./dell/dell.jsp" target="marco">
+                                <img src="images/logoDell.jpg" width="70" height="70" alt="" /> </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- Botón Logo HP -->
+                            <td align="center">
+                                <a href="./hp/hp.jsp" target="marco">
+                                <img src="images/logoHP.png" width="70" height="70" alt="" /> </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- Botón Logo Huawei -->
+                            <td align="center">
+                                <a href="./huawei/huawei.jsp" target="marco">
+                                <img src="images/logoHuawei.jpg" width="80" height="80" alt="" /> </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- Botón Logo Lenovo -->
+                            <td align="center">
+                                <a href="./lenovo/lenovo.jsp" target="marco">
+                                <img src="images/logoLenovo.jpg" width="80" height="80" alt="" /> </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-6 col-md-10">
+                    <!-- Marco -->
+                    <div id="marquito" align="center">
+                        <iframe name="marco" 
+                            scrolling="auto" 
+                            frameborder="0" 
+                            style="width: 1300px; height: 1000px" 
+                            src="home.html">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        <footer>
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column align-items-baseline">
+                    <ul class="socialIcons">
+                        <table>
+                            <tr>
+                                <td>
+                                    <li class="facebook"><a href="https://www.facebook.com"><i class="fa fa-fw fa-facebook"></i>Facebook</a></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="instagram"><a href="https://instagram.com"><i class="fa fa-fw fa-instagram"></i>Instagram</a></li>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="whatsapp"><a href="https://web.whatsapp.com"><i class="fa fa-fw fa-whatsapp"></i>WhatsApp</a></li>
+                                </td>
+                            </tr>
+                        </table>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <addres>
+                            <h4>Oficina central</h4>
+                            <p>
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-building" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694L1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                                <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+                                </svg>
+                                Corrientes 958 2° Piso. CABA. Argentina
+                            </p>
+                            <p>
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-phone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                </svg>
+                                +54 11 4658-7487
+                            </p>
+                            <p>
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" 
+                                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                                </svg>
+                                contacto@alphanotebooks.com.ar
+                            </p>
+                        </address>
+                    </div>
+
+                    <div class="col-sm-4 d-flex flex-column align-items-end text-decoration-none">
+                        <p>
+                            <a href="./home.html" target="marco">Inicio</a>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" 
+                                      d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                                <path fill-rule="evenodd" 
+                                      d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                            </svg>
+                        </p>
+                        <p>
+                           <a href="./catalogo.jsp" target="marco">Catálogo de Productos</a>
+                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-laptop" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+                                <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+                            </svg>
+                        </p>
+                        <p>
+                           <a href="./contacto.jsp" target="marco">Contáctenos</a> 
+                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-square-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </p>
+                        <p>
+                           <a href="./admin/admin.jsp">Administrador </a>
+                        </p>
+                    </div> 
+                </div>
+                <div class="row ">
+                    <div class="col-lg-12 d-flex flex-column align-items-baseline">
+                        <table class="col-auto" align="center">
+                            <tr>
+                                <td>
+                                    <p class="text-muted text-center" style="font-size: 0.9rem;">
+                                    PeiDev.eras © 2020 </p>
+                                </td>                             
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+        </footer>
+    </body>
+</html>
